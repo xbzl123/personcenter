@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="person_center_list">
+    <item>@string/person_center_account_setting</item>
+    <item>@string/person_center_albums</item>
+    <item>@string/person_center_share_devices</item>
+    <item>@string/person_center_additional_service</item>
+    <item>@string/person_center_my_service</item>
+    <item>@string/person_center_help</item>
+    <item>@string/person_center_about</item>
+    <item>@string/person_center_feedback</item>
+
+</string-array>
+
+    <string-array name="account_setting_list">
+        <item>@string/person_center_nickname</item>
+        <item>@string/person_center_account</item>
+        <item>@string/person_center_change_password</item>
+        <item>@string/person_center_biometrics</item>
+        <item>@string/authentication_title</item>
+    </string-array>
+
+    <string-array name="about_list">
+        <item>@string/person_center_upload_log</item>
+        <item>@string/person_center_term_and_conditions</item>
+    </string-array>
+
+    <string-array name="terms_condition">
+        <item>@string/person_center_terms_of_service</item>
+        <item>@string/person_center_privacy_policy</item>
+    </string-array>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/region_navigation_action"
+    app:startDestination="@id/account_setting">
+
+    <fragment
+        android:id="@+id/account_setting"
+        android:name="com.module.personcenter.ui.AccountSettingFragment">
+
+        <action
+            android:id="@+id/action_account_setting_to_nickname_setting"
+            app:destination="@id/nickname_setting" />
+
+        <action
+            android:id="@+id/action_account_setting_to_authentication"
+            app:destination="@+id/authentication"/>
+
+        <action
+            android:id="@+id/action_account_to_delete_account"
+            app:destination="@+id/deleteAccount"/>
+
+        <action
+            android:id="@+id/action_account_setting_to_change_password"
+            app:destination="@+id/change_password"/>
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/nickname_setting"
+        android:name="com.module.personcenter.ui.NicknameFragment">
+
+    </fragment>
+
+    <fragment android:id="@+id/change_password"
+        android:name="com.module.personcenter.ui.ChangePasswordFragment"/>
+
+    <fragment
+        android:id="@+id/about"
+        android:name="com.module.personcenter.ui.AboutFragment"/>
+    <fragment
+        android:id="@+id/authentication"
+        android:name="com.module.personcenter.ui.AuthenticationFragment"/>
+
+    <fragment
+        android:id="@+id/deleteAccount"
+        android:name="com.module.personcenter.ui.DeleteAccountFragment"/>
+
+
+</navigation>

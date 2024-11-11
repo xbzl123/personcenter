@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="app_skin_two_factor_text_color" format="color|reference" />
+    <attr name="app_skin_two_factor_email_text_color" format="color|reference"/>
+    <attr name="app_skin_two_factor_hint_text_color" format="color|reference"/>
+</resources>

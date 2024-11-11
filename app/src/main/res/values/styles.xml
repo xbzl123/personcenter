@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CheckBox">
+        <!--<item name="android:layoutDirection">rtl</item>-->
+        <item name="colorControlActivated">@color/authentication_text_blue_color</item>
+    </style>
+</resources>

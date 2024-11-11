@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/region_navigation_action"
+    app:startDestination="@id/navigation_person_center">
+
+    <fragment
+        android:id="@+id/navigation_person_center"
+        android:name="com.module.personcenter.ui.PersonCenterFragment">
+
+        <action
+            android:id="@+id/action_navigation_person_center_to_account_setting"
+            app:destination="@id/account_setting" />
+        <action
+            android:id="@+id/action_navigation_person_center_to_about"
+            app:destination="@id/about" />
+        <action
+            android:id="@+id/action_navigation_person_center_to_upload_log"
+            app:destination="@id/upload_log" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/upload_log"
+        android:name="com.module.personcenter.ui.UploadLogFragment">
+
+    </fragment>
+</navigation>
